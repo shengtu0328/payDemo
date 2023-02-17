@@ -1,0 +1,287 @@
+2023-02-15 11:30:23 -Starting PayDemoApplication on f01898564faf with PID 2491 (/Users/videopls/xrqProjects/payDemo/target/classes started by videopls in /Users/videopls/xrqProjects/payDemo)
+2023-02-15 11:30:23 -Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-02-15 11:30:23 -No active profile set, falling back to default profiles: default
+2023-02-15 11:30:26 -No MyBatis mapper was found in '[com.example.longecological.mapper, com.example.longecological.mapper.*]' package. Please check your configuration.
+2023-02-15 11:30:27 -No MyBatis mapper was found in '[com.example.learn]' package. Please check your configuration.
+2023-02-15 11:30:28 -Bean 'taskExecutorConfig' of type [com.example.learn.config.thread.TaskExecutorConfig$$EnhancerBySpringCGLIB$$abab164c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-15 11:30:29 -Tomcat initialized with port(s): 8085 (http)
+2023-02-15 11:30:29 -Initializing ProtocolHandler ["http-nio-8085"]
+2023-02-15 11:30:29 -Starting service [Tomcat]
+2023-02-15 11:30:29 -Starting Servlet Engine: Apache Tomcat/9.0.13
+2023-02-15 11:30:29 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/videopls/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-02-15 11:30:29 -Initializing Spring embedded WebApplicationContext
+2023-02-15 11:30:29 -Root WebApplicationContext: initialization completed in 5504 ms
+2023-02-15 11:30:30 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'aliPayReturnController': Unsatisfied dependency expressed through field 'aliPayReturnService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'aliPayReturnServiceImpl': Unsatisfied dependency expressed through field 'asyncPayDealTaskService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'asyncPayDealTaskServiceImpl': Unsatisfied dependency expressed through field 'dataSourceTransactionManager'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-02-15 11:30:30 -Stopping service [Tomcat]
+2023-02-15 11:30:30 -The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:40)
+2023-02-15 11:30:30 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-15 11:30:30 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-02-15 11:31:12 -Starting PayDemoApplication on f01898564faf with PID 2539 (/Users/videopls/xrqProjects/payDemo/target/classes started by videopls in /Users/videopls/xrqProjects/payDemo)
+2023-02-15 11:31:12 -Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-02-15 11:31:12 -No active profile set, falling back to default profiles: default
+2023-02-15 11:31:13 -No MyBatis mapper was found in '[com.example.longecological.mapper, com.example.longecological.mapper.*]' package. Please check your configuration.
+2023-02-15 11:31:13 -No MyBatis mapper was found in '[com.example.learn]' package. Please check your configuration.
+2023-02-15 11:31:14 -Bean 'taskExecutorConfig' of type [com.example.learn.config.thread.TaskExecutorConfig$$EnhancerBySpringCGLIB$$6809162b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-15 11:31:14 -Tomcat initialized with port(s): 8085 (http)
+2023-02-15 11:31:14 -Initializing ProtocolHandler ["http-nio-8085"]
+2023-02-15 11:31:14 -Starting service [Tomcat]
+2023-02-15 11:31:14 -Starting Servlet Engine: Apache Tomcat/9.0.13
+2023-02-15 11:31:14 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/videopls/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-02-15 11:31:14 -Initializing Spring embedded WebApplicationContext
+2023-02-15 11:31:14 -Root WebApplicationContext: initialization completed in 1995 ms
+2023-02-15 11:31:15 -STAET TaskExecutorConfig
+2023-02-15 11:31:15 -Initializing ExecutorService
+2023-02-15 11:31:15 -Initializing ExecutorService 'getAsyncExecutor'
+2023-02-15 11:31:16 -Adding welcome page template: index
+2023-02-15 11:31:16 -Initializing ExecutorService 'taskScheduler'
+2023-02-15 11:31:16 -Starting ProtocolHandler ["http-nio-8085"]
+2023-02-15 11:31:16 -Using a shared selector for servlet write/read
+2023-02-15 11:31:16 -Failed to start component [Connector[HTTP/1.1-8085]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1001)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.example.learn.PayDemoApplication.main(PayDemoApplication.java:25)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:438)
+	at sun.nio.ch.Net.bind(Net.java:430)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1067)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1149)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:561)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:998)
+	... 14 common frames omitted
+2023-02-15 11:31:16 -Pausing ProtocolHandler ["http-nio-8085"]
+2023-02-15 11:31:16 -Stopping service [Tomcat]
+2023-02-15 11:31:16 -The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2023-02-15 11:31:16 -Stopping ProtocolHandler ["http-nio-8085"]
+2023-02-15 11:31:16 -Destroying ProtocolHandler ["http-nio-8085"]
+2023-02-15 11:31:16 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-15 11:31:16 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8085 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8085, or configure this application to listen on another port.
+
+2023-02-15 11:31:16 -Shutting down ExecutorService 'taskScheduler'
+2023-02-15 11:31:16 -Shutting down ExecutorService 'getAsyncExecutor'
+2023-02-15 11:31:35 -Starting PayDemoApplication on f01898564faf with PID 2544 (/Users/videopls/xrqProjects/payDemo/target/classes started by videopls in /Users/videopls/xrqProjects/payDemo)
+2023-02-15 11:31:36 -Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-02-15 11:31:36 -No active profile set, falling back to default profiles: default
+2023-02-15 11:31:36 -No MyBatis mapper was found in '[com.example.longecological.mapper, com.example.longecological.mapper.*]' package. Please check your configuration.
+2023-02-15 11:31:36 -No MyBatis mapper was found in '[com.example.learn]' package. Please check your configuration.
+2023-02-15 11:31:37 -Bean 'taskExecutorConfig' of type [com.example.learn.config.thread.TaskExecutorConfig$$EnhancerBySpringCGLIB$$425b7282] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-15 11:31:38 -Tomcat initialized with port(s): 8085 (http)
+2023-02-15 11:31:38 -Initializing ProtocolHandler ["http-nio-8085"]
+2023-02-15 11:31:38 -Starting service [Tomcat]
+2023-02-15 11:31:38 -Starting Servlet Engine: Apache Tomcat/9.0.13
+2023-02-15 11:31:38 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/videopls/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-02-15 11:31:38 -Initializing Spring embedded WebApplicationContext
+2023-02-15 11:31:38 -Root WebApplicationContext: initialization completed in 2107 ms
+2023-02-15 11:31:38 -STAET TaskExecutorConfig
+2023-02-15 11:31:38 -Initializing ExecutorService
+2023-02-15 11:31:38 -Initializing ExecutorService 'getAsyncExecutor'
+2023-02-15 11:31:39 -Adding welcome page template: index
+2023-02-15 11:31:39 -Initializing ExecutorService 'taskScheduler'
+2023-02-15 11:31:39 -Starting ProtocolHandler ["http-nio-8085"]
+2023-02-15 11:31:39 -Using a shared selector for servlet write/read
+2023-02-15 11:31:39 -Failed to start component [Connector[HTTP/1.1-8085]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1001)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.example.learn.PayDemoApplication.main(PayDemoApplication.java:25)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:438)
+	at sun.nio.ch.Net.bind(Net.java:430)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1067)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1149)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:561)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:998)
+	... 14 common frames omitted
+2023-02-15 11:31:39 -Pausing ProtocolHandler ["http-nio-8085"]
+2023-02-15 11:31:39 -Stopping service [Tomcat]
+2023-02-15 11:31:39 -The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2023-02-15 11:31:39 -Stopping ProtocolHandler ["http-nio-8085"]
+2023-02-15 11:31:39 -Destroying ProtocolHandler ["http-nio-8085"]
+2023-02-15 11:31:39 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-15 11:31:39 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8085 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8085, or configure this application to listen on another port.
+
+2023-02-15 11:31:39 -Shutting down ExecutorService 'taskScheduler'
+2023-02-15 11:31:39 -Shutting down ExecutorService 'getAsyncExecutor'
+2023-02-15 11:31:55 -Starting PayDemoApplication on f01898564faf with PID 2555 (/Users/videopls/xrqProjects/payDemo/target/classes started by videopls in /Users/videopls/xrqProjects/payDemo)
+2023-02-15 11:31:55 -Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-02-15 11:31:55 -No active profile set, falling back to default profiles: default
+2023-02-15 11:31:56 -No MyBatis mapper was found in '[com.example.longecological.mapper, com.example.longecological.mapper.*]' package. Please check your configuration.
+2023-02-15 11:31:56 -No MyBatis mapper was found in '[com.example.learn]' package. Please check your configuration.
+2023-02-15 11:31:56 -Bean 'taskExecutorConfig' of type [com.example.learn.config.thread.TaskExecutorConfig$$EnhancerBySpringCGLIB$$d1ff6a90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-15 11:31:57 -Tomcat initialized with port(s): 8085 (http)
+2023-02-15 11:31:57 -Initializing ProtocolHandler ["http-nio-8085"]
+2023-02-15 11:31:57 -Starting service [Tomcat]
+2023-02-15 11:31:57 -Starting Servlet Engine: Apache Tomcat/9.0.13
+2023-02-15 11:31:57 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/videopls/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-02-15 11:31:57 -Initializing Spring embedded WebApplicationContext
+2023-02-15 11:31:57 -Root WebApplicationContext: initialization completed in 1876 ms
+2023-02-15 11:31:57 -STAET TaskExecutorConfig
+2023-02-15 11:31:57 -Initializing ExecutorService
+2023-02-15 11:31:57 -Initializing ExecutorService 'getAsyncExecutor'
+2023-02-15 11:31:58 -Adding welcome page template: index
+2023-02-15 11:31:58 -Initializing ExecutorService 'taskScheduler'
+2023-02-15 11:31:58 -Starting ProtocolHandler ["http-nio-8085"]
+2023-02-15 11:31:58 -Using a shared selector for servlet write/read
+2023-02-15 11:31:58 -Tomcat started on port(s): 8085 (http) with context path ''
+2023-02-15 11:31:58 -Started PayDemoApplication in 4.627 seconds (JVM running for 5.606)
+2023-02-15 11:34:14 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-15 11:34:14 -Initializing Servlet 'dispatcherServlet'
+2023-02-15 11:34:14 -Completed initialization in 47 ms
+2023-02-15 11:43:31 -Shutting down ExecutorService 'taskScheduler'
+2023-02-15 11:43:37 -Starting PayDemoApplication on f01898564faf with PID 2726 (/Users/videopls/xrqProjects/payDemo/target/classes started by videopls in /Users/videopls/xrqProjects/payDemo)
+2023-02-15 11:43:37 -Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-02-15 11:43:37 -No active profile set, falling back to default profiles: default
+2023-02-15 11:43:38 -No MyBatis mapper was found in '[com.example.longecological.mapper, com.example.longecological.mapper.*]' package. Please check your configuration.
+2023-02-15 11:43:38 -No MyBatis mapper was found in '[com.example.learn]' package. Please check your configuration.
+2023-02-15 11:43:38 -Bean 'taskExecutorConfig' of type [com.example.learn.config.thread.TaskExecutorConfig$$EnhancerBySpringCGLIB$$abab164c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-15 11:43:39 -Tomcat initialized with port(s): 8085 (http)
+2023-02-15 11:43:39 -Initializing ProtocolHandler ["http-nio-8085"]
+2023-02-15 11:43:39 -Starting service [Tomcat]
+2023-02-15 11:43:39 -Starting Servlet Engine: Apache Tomcat/9.0.13
+2023-02-15 11:43:39 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/videopls/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-02-15 11:43:39 -Initializing Spring embedded WebApplicationContext
+2023-02-15 11:43:39 -Root WebApplicationContext: initialization completed in 2245 ms
+2023-02-15 11:43:40 -STAET TaskExecutorConfig
+2023-02-15 11:43:40 -Initializing ExecutorService
+2023-02-15 11:43:40 -Initializing ExecutorService 'getAsyncExecutor'
+2023-02-15 11:43:41 -Adding welcome page template: index
+2023-02-15 11:43:41 -Initializing ExecutorService 'taskScheduler'
+2023-02-15 11:43:41 -Starting ProtocolHandler ["http-nio-8085"]
+2023-02-15 11:43:41 -Using a shared selector for servlet write/read
+2023-02-15 11:43:41 -Tomcat started on port(s): 8085 (http) with context path ''
+2023-02-15 11:43:41 -Started PayDemoApplication in 5.453 seconds (JVM running for 6.493)
+2023-02-15 11:44:07 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-15 11:44:07 -Initializing Servlet 'dispatcherServlet'
+2023-02-15 11:44:07 -Completed initialization in 11 ms
+2023-02-15 11:48:19 -Shutting down ExecutorService 'taskScheduler'
+2023-02-15 11:48:19 -Shutting down ExecutorService 'getAsyncExecutor'
+2023-02-15 11:48:25 -Starting PayDemoApplication on f01898564faf with PID 2799 (/Users/videopls/xrqProjects/payDemo/target/classes started by videopls in /Users/videopls/xrqProjects/payDemo)
+2023-02-15 11:48:25 -Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-02-15 11:48:25 -No active profile set, falling back to default profiles: default
+2023-02-15 11:48:26 -No MyBatis mapper was found in '[com.example.longecological.mapper, com.example.longecological.mapper.*]' package. Please check your configuration.
+2023-02-15 11:48:26 -No MyBatis mapper was found in '[com.example.learn]' package. Please check your configuration.
+2023-02-15 11:48:26 -Bean 'taskExecutorConfig' of type [com.example.learn.config.thread.TaskExecutorConfig$$EnhancerBySpringCGLIB$$4217f200] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-15 11:48:27 -Tomcat initialized with port(s): 8085 (http)
+2023-02-15 11:48:27 -Initializing ProtocolHandler ["http-nio-8085"]
+2023-02-15 11:48:27 -Starting service [Tomcat]
+2023-02-15 11:48:27 -Starting Servlet Engine: Apache Tomcat/9.0.13
+2023-02-15 11:48:27 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/videopls/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-02-15 11:48:27 -Initializing Spring embedded WebApplicationContext
+2023-02-15 11:48:27 -Root WebApplicationContext: initialization completed in 1713 ms
+2023-02-15 11:48:27 -STAET TaskExecutorConfig
+2023-02-15 11:48:27 -Initializing ExecutorService
+2023-02-15 11:48:27 -Initializing ExecutorService 'getAsyncExecutor'
+2023-02-15 11:48:28 -Adding welcome page template: index
+2023-02-15 11:48:28 -Initializing ExecutorService 'taskScheduler'
+2023-02-15 11:48:28 -Starting ProtocolHandler ["http-nio-8085"]
+2023-02-15 11:48:28 -Using a shared selector for servlet write/read
+2023-02-15 11:48:28 -Tomcat started on port(s): 8085 (http) with context path ''
+2023-02-15 11:48:28 -Started PayDemoApplication in 4.14 seconds (JVM running for 5.151)
+2023-02-15 11:48:42 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-15 11:48:42 -Initializing Servlet 'dispatcherServlet'
+2023-02-15 11:48:42 -Completed initialization in 18 ms
+2023-02-15 11:49:22 -****************************************余额充值：支付宝的异步回调函数被调用******************************
+2023-02-15 11:49:22 -支付宝的返回参数信息{gmt_create=2023-02-15 11:49:09, charset=utf-8, gmt_payment=2023-02-15 11:49:20, notify_time=2023-02-15 11:49:22, subject=支付宝电脑网站支付, sign=S3lpcI2z81rkaJsPYtYkKWDLpN/TfEeoLcrPhh2FRXJfKNDacZXQavOsTDGANSsw/SsvCtORq7UQjbRy6PEIGE2FKfDoqYRrZrRrkgEB+k1tkmRa5AWZ3C3bFdiDvVPcJoIY9e7A1E607AuWBAmGhDmC5ikbce/FmnQH3wLBfpvWI+Nj8H8gA8Knoub8wMPIz3NK6RRkNIdb5hnqZQdd0HpXe9cldFX4Nn7ixsk3WCgDtZbOmQ7Wk5zyWF5EniyjlKACRc6b/9vHFA7+dv1xQqi6zQm7EoXfgDHBcBiTn7craoWLwQDO+5O1k3KKRJU9lV0haiLSawtQ6c+IisXsmg==, buyer_id=2088722007963943, body=支付宝电脑网站支付, invoice_amount=0.01, version=1.0, notify_id=2023021500222114921063940522833602, fund_bill_list=[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}], notify_type=trade_status_sync, out_trade_no=20230215114845632903486, total_amount=0.01, trade_status=TRADE_SUCCESS, trade_no=2023021522001463940503936756, auth_app_id=2021000122612797, receipt_amount=0.01, point_amount=0.00, app_id=2021000122612797, buyer_pay_amount=0.01, sign_type=RSA2, seller_id=2088621995201076}
+2023-02-15 11:49:22 -****************************************验签成功，处理支付结果*******************************************
+2023-02-15 11:49:22 -HikariPool-1 - Starting...
+2023-02-15 11:49:23 -HikariPool-1 - Start completed.
+2023-02-15 11:49:23 -支付宝的支付状态为TRADE_SUCCESS，支付成功，处理业务逻辑啦=====
+2023-02-15 11:49:23 -支付宝支付回调信息处理成功
+2023-02-15 11:49:32 -****************************************余额充值：支付宝的同步回调函数被调用******************************
+2023-02-15 11:49:32 -支付宝的返回参数信息{charset=utf-8, out_trade_no=20230215114845632903486, method=alipay.trade.page.pay.return, total_amount=0.01, sign=IV4qz+kTvnXyI8Y7K7QwHVCBKnYYcdBFhddysF+NeAiF8TGWCapoR6xOFA6tgHmh2wTgB9kpdyCT5pppEfC7qTaRhIJH74cEYVkHgbV18ChhH1OWXI2Tl+YYTrABkybWE/7mQPZ4NtbHHj9AXcdeGgv+dj/yaBgTF4JQNNE563dzcdMMX6fiZKi7FI//0EF3McyCFGzskNdFVPMRS9QZURkMlGyPO1MHhsn+FI4k9ILhVRiDb7TsF9WTZjtgzGhTypP/t/gayIViQqryvcaW05R5LXSO8KzFjen1CUpTn8TDEca7EP24B28UgZkyjimkm3uA0j1CDaUt457+JGElPw==, trade_no=2023021522001463940503936756, auth_app_id=2021000122612797, version=1.0, app_id=2021000122612797, sign_type=RSA2, seller_id=2088621995201076, timestamp=2023-02-15 11:49:29}
+2023-02-15 11:55:02 -****************************************余额充值：支付宝的异步回调函数被调用******************************
+2023-02-15 11:55:02 -支付宝的返回参数信息{gmt_create=2023-02-15 11:54:36, charset=utf-8, gmt_payment=2023-02-15 11:54:59, notify_time=2023-02-15 11:55:02, subject=支付宝电脑网站支付, sign=hZw8UJEgWa5kzNIM5Z6cOgIemeJ/02P0jd5iatIqiaMn04wAuPgELhqwRtQiCegfR7wbNambyN+U2rlmoawOpu0ccTTNSFfudOkPu7V8BzELv8Upe1TqlmnGecuT19zok+zEXX1fg0mLqUrrbm9FX9NcVm0JxjufFSzlJPaY+iuY0gFgu45RgSPYFp7IyKIncE44QQ5WfUVn8vVQBPDI4SpPx00V8GdAveOVMwQuRWI03W9immhaOnPiG51Xmf/sFqZjfkG1QdctyPEi6Bg/27e98MZqeknMQZqgne0N1FCoUxkvWp+a05GN322jCkcXE656WSgoR7KQ1ztn4GOdRA==, buyer_id=2088722007963943, body=支付宝电脑网站支付, invoice_amount=0.01, version=1.0, notify_id=2023021500222115501063940522836359, fund_bill_list=[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}], notify_type=trade_status_sync, out_trade_no=20230215115413544143428, total_amount=0.01, trade_status=TRADE_SUCCESS, trade_no=2023021522001463940503936949, auth_app_id=2021000122612797, receipt_amount=0.01, point_amount=0.00, app_id=2021000122612797, buyer_pay_amount=0.01, sign_type=RSA2, seller_id=2088621995201076}
+2023-02-15 11:55:02 -****************************************验签成功，处理支付结果*******************************************
+2023-02-15 11:55:02 -支付宝的支付状态为TRADE_SUCCESS，支付成功，处理业务逻辑啦=====
+2023-02-15 11:55:02 -支付宝支付回调信息处理成功
+2023-02-15 11:55:15 -****************************************余额充值：支付宝的同步回调函数被调用******************************
+2023-02-15 11:55:15 -支付宝的返回参数信息{charset=utf-8, out_trade_no=20230215115413544143428, method=alipay.trade.page.pay.return, total_amount=0.01, sign=MxdTy8++7YYO6Qn7TKT7cZbZz8tJA3CkcoT7wyXzoSffJ1aMqV0bEvZ0HmX6X2isAOigvCjBtFw2tBh4NkXCEsDy5YrRaFP2q1Ei2Zk+lCSX1tn2wb4TruK/ai6RfTFZhgmyPF3HvRisD9O8Wd9yoZeS/VYw05Un5SbhV5+Ahhix/ATngV9SIKZ4E7aVByQpp8JxKWzD57Q7TWzQVUNGxR3p/piagxwIVw2UOylYyybatY/eqopU4Xc5KYK0uBF7wYpeb1xlKKqxUGr1lQubt99/WB75SyImykfSIkm2IV/sUqZOFs7FRaTHOzvgtjmCx54T7+RV/T/bRuBkTgSIJg==, trade_no=2023021522001463940503936949, auth_app_id=2021000122612797, version=1.0, app_id=2021000122612797, sign_type=RSA2, seller_id=2088621995201076, timestamp=2023-02-15 11:55:11}
+2023-02-15 11:55:27 -Shutting down ExecutorService 'taskScheduler'
+2023-02-15 11:55:27 -Shutting down ExecutorService 'getAsyncExecutor'
+2023-02-15 11:55:27 -HikariPool-1 - Shutdown initiated...
+2023-02-15 11:55:27 -HikariPool-1 - Shutdown completed.

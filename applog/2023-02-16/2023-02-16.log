@@ -1,0 +1,27 @@
+2023-02-16 17:32:59 -Starting PayDemoApplication on f01898564faf with PID 8871 (/Users/videopls/xrqProjects/payDemo/target/classes started by videopls in /Users/videopls/xrqProjects/payDemo)
+2023-02-16 17:32:59 -Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-02-16 17:32:59 -No active profile set, falling back to default profiles: default
+2023-02-16 17:33:00 -No MyBatis mapper was found in '[com.example.longecological.mapper, com.example.longecological.mapper.*]' package. Please check your configuration.
+2023-02-16 17:33:00 -No MyBatis mapper was found in '[com.example.learn]' package. Please check your configuration.
+2023-02-16 17:33:01 -Bean 'taskExecutorConfig' of type [com.example.learn.config.thread.TaskExecutorConfig$$EnhancerBySpringCGLIB$$cd16b3d1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-16 17:33:02 -Tomcat initialized with port(s): 8085 (http)
+2023-02-16 17:33:02 -Initializing ProtocolHandler ["http-nio-8085"]
+2023-02-16 17:33:02 -Starting service [Tomcat]
+2023-02-16 17:33:02 -Starting Servlet Engine: Apache Tomcat/9.0.13
+2023-02-16 17:33:02 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/videopls/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-02-16 17:33:02 -Initializing Spring embedded WebApplicationContext
+2023-02-16 17:33:02 -Root WebApplicationContext: initialization completed in 2933 ms
+2023-02-16 17:33:03 -STAET TaskExecutorConfig
+2023-02-16 17:33:03 -Initializing ExecutorService
+2023-02-16 17:33:03 -Initializing ExecutorService 'getAsyncExecutor'
+2023-02-16 17:33:04 -Adding welcome page template: index
+2023-02-16 17:33:05 -Initializing ExecutorService 'taskScheduler'
+2023-02-16 17:33:05 -Starting ProtocolHandler ["http-nio-8085"]
+2023-02-16 17:33:05 -Using a shared selector for servlet write/read
+2023-02-16 17:33:05 -Tomcat started on port(s): 8085 (http) with context path ''
+2023-02-16 17:33:05 -Started PayDemoApplication in 7.433 seconds (JVM running for 10.749)
+2023-02-16 17:33:39 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-16 17:33:39 -Initializing Servlet 'dispatcherServlet'
+2023-02-16 17:33:39 -Completed initialization in 52 ms
+2023-02-16 17:34:35 -Shutting down ExecutorService 'taskScheduler'
+2023-02-16 17:34:35 -Shutting down ExecutorService 'getAsyncExecutor'
